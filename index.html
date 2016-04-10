@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>New York Times Book List</title>
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+
+<div class="loading">
+    <div class="icon">
+        <i class="fa fa-gear fa-4x fa-spin"></i>
+    </div>
+</div>
+
+<div class="container">
+    <div class="jumbotron">
+        <h1>New York Times Book List</h1>
+        <p>Choose a category from the dropdown and list all the books on the New York Times best seller list in that category</p>
+    </div>
+
+
+    <div class="row">
+        <div class="col-sm-3">
+            <label for="category" class="control-label">Category:</label>
+            <select name="category" id="category" class="form-control"></select>
+        </div>
+
+        <div class="col-sm-8">
+            <h2 class="category-title">Choose a category from the left</h2>
+
+            <div class="book-list"></div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+<script type="text/javascript" src="https://code.jquery.com/jquery-2.2.3.min.js"></script>
+<script type="text/javascript" src="lib/bootstrap/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="scripts/main.js"></script>
+</body>
+</html>
